@@ -1,0 +1,192 @@
+#home{
+	
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top: 0; 
+	left: 0;
+	flex-direction: column;
+}
+
+.body{
+	margin: 0px;
+	margin-top: 0px;
+}
+
+.resumeButton{
+	background-color: #240236;
+	color:#B50508;
+
+
+	padding: 5px 25px 5px 25px;	 
+
+	font-family: Raleway;
+	font-size: 30px;
+	font-weight: 900;	
+	transition: 0.5s;
+	border-radius: 25px;
+	border-style: solid;
+	border-color: black;
+
+}
+
+.resumeButton:hover{
+	transform: scale(1.2);
+}
+
+#name{
+
+	margin-top: 0px;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-right: 10%;
+
+	padding-top: 5%;
+	padding-left: 10%;
+	text-align: center;
+	color: #B50508;
+	font-size: 250%;
+	font-family: Raleway; 
+	font-weight: 900;
+}
+
+#myPic{
+	width  :12.8%;
+	height: 12.8%;
+
+	border-radius: 50%;
+	border:10px;
+	border-style:solid;
+	border-color: #240236;
+	border-image-width: 10px;
+}
+
+#myImage{
+	margin-top: 2%
+
+}
+#role{
+	font-size: 30px;
+	color: white;
+	font-family: Raleway;
+	text-align: center;;
+	font-weight: bold;
+}
+
+
+#about{
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color:white;
+	font-size: 25px;
+	text-align: center;
+	font-family: Raleway;
+}
+
+#wrapper{
+	width: 100%;
+	height:10%;
+	background-color: #4d0000;
+
+}
+
+.icon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border-radius: 100px;
+	border:3.5px;
+	border-style:solid;
+	border-color: #240236;
+	border-image-width: 10px;
+
+	width:48px;
+	height:48px;
+
+	
+	transition: border-color 0.5s; 
+}
+
+.icon:hover{
+	border-color:#B50508;
+}
+
+.resumeDownload{
+	color:inherit;
+	text-decoration: none;
+}
+
+
+
+.button{	
+	
+	margin-top:40px;
+}
+
+#but{
+	margin-top: 20px;
+	color:white;
+	font-size: 150%;
+	text-align: center;
+	font-family: Raleway;
+	background-color: #240236;
+	margin-left: 43%;
+	margin-right: 43%;
+	border-radius: 10px;
+	height: 200%;
+
+
+}
+
+.navIcon{
+	float: left;
+	width: 5%;
+	margin-right: 2%;
+	margin-left: 0px;
+
+	transition: 0.5s;
+
+}
+
+.nav{
+	float: left;
+
+	color: white;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 900;
+
+	margin-top: 13px;
+	margin-right: 2%;
+	margin-bottom: 10px;
+
+	transition: 0.5s;
+}
+
+.nav:hover{
+	color:#B50508; 
+	font-size: 30px;
+	font-weight: 9000;	
+}
+
+
+/**********************************************************/
+
+
+#projects{
+	background-color: blue;
+	font-size: 100px;
+	flex-direction: column;
+	margin-top: 10px;
+	position: absolute;
+}
+
+#title
+{
+	font-size: 40px;
+}
